@@ -1,9 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<style type="text/css">
-<!--
+
      body
     {
     /*background-image: url('');*/
@@ -168,47 +163,13 @@
         margin-bottom: 0px;
         margin-top:0px;
     }
-    
--->
-</style>
-</head>
-<body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="logo">
-                LOGO
-            </div>
-            <div id="nav">
-                NAV
-            </div>
-        </div>
-        <div id="content">
-            <div id="left">
-            <div id = "topcontent">
-                <div class="punchline">
-                    This is KARMA
-                </div>
-                TOPCONTENT
-            </div>
-            <div id ="botcontent">
-                BOTTOM CONTENT
-            </div>
-            </div>
-            <div id="right">
-            <div id="topbar">
-                TOP BAR
-            </div>
-            <div id="midbar">
-                MID BAR
-            </div>
-            <div id="botbar">
-                BOT BAR
-            </div>
-            </div>
-        </div>
-        <div id="footer">
-            MINI FOOTER
-        </div>
-    </div>
-</body>
-</html>
+    .mainHeader nav ul
+    {
+     list-style:"none";
+     margin: 0 auto;   
+    }
+    .mainHeader nav ul li
+    {
+        float:left;
+        display:inline;
+    }
